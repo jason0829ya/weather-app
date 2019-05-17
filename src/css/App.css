@@ -1,0 +1,44 @@
+.weather-title {
+   background-color: blue;
+   color: white;
+   font-size: 50px;
+   text-align: center;
+   margin-left: 250px;
+   margin-right: 250px;
+}
+
+.weather-title_img {
+   width: 150px;
+   height: 100px;
+}
+
+.weather-title_text {
+   display: inline;
+   padding-top: 3px;
+}
+
+.weather-main {
+   text-align: center;
+   margin-top: 10px;
+}
+
+.weather-search_input {
+   width: 500px;
+   height: 25px;
+}
+
+.weather-wearch_button {
+   margin-left: 5px;
+   /* border: none; */
+   background-color: green;
+   color: aliceblue;
+   padding: 7px;
+   font-size: 18px;
+}
+
+.weather-show {
+   /* margin-left: 550px;
+   margin-right: 550px;
+   text-align: left; */
+   vertical-align: super;
+}
