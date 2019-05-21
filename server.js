@@ -25,8 +25,8 @@ app.get('/weather', async(req, res) => {
       const forecast_data = await getForecastdata(geo_data); // get weather information from darksky.net API
       res.send(forecast_data);
    }
-   catch (error) {
-      res.send({error});
+   catch(e) {
+      res.send({ error: e.message });
    }
 })
 
